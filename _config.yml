@@ -1,0 +1,21 @@
+# Site Settings
+name: Ирина Иванова
+email: irina.ivanova@protonmail.com
+description: >-
+  Персональный блог Ирины Ивановой
+baseurl: ""
+url: https://irina-ivanova.eu
+permalink: /:year/:month/:day/:title
+github_username: iriiiina
+
+# Build Settings
+markdown: kramdown
+sass:
+  sass_dir: css
+  style: compressed
+  sourcemap: none
+
+# Other
+safe: true
+timezone: "Europe/Tallinn"
+encoding: utf-8
