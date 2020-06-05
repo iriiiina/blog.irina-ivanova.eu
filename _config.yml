@@ -19,3 +19,10 @@ sass:
 safe: true
 timezone: "Europe/Tallinn"
 encoding: utf-8
+
+# Plugins
+plugins:
+  - jekyll-paginate
+
+# Pagination Settings
+paginate: 10
