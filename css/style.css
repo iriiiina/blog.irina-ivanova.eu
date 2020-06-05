@@ -86,23 +86,25 @@ nav p a {
 	width: 600px;
 	margin: 10% auto 0 auto;
 	font-size: 24px;
+	background-color: white;
+	border: 1px green dotted;
+	padding: 30px;
+	border-radius: 10px;
 }
 
 #portfolio p {
-	margin: 10% 0 10% 0;
-	background-color: white;
-	padding: 20px;
-	border-radius: 10px;
+	margin: 0;
+}
+
+#portfolio-link {
+	margin: 20px 0 0 0;
 }
 
 #portfolio a {
 	text-align: center;
-	font-size: 36px;
-	background-color: orange;
-	color: white;
 	text-decoration: none;
-	padding: 0px 20px 10px 20px;
-	border-radius: 15px;
+	margin: 30px auto 0 auto;
+	border-bottom: 1px dotted;
 }
 
 /* CONTACT */
