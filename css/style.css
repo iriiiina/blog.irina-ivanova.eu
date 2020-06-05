@@ -109,16 +109,38 @@ nav p a {
 
 #contact {
 	text-align: left;
-	width: 600px;
+	width: 700px;
 	margin: 10% auto 0 auto;
 	font-size: 24px;
 	background-color: white;
-	padding: 20px;
+	padding: 30px;
 	border-radius: 10px;
+	line-height: 30px;
+	border: 1px green dotted;
+}
+
+#contact p {
+	margin: 0;
+}
+
+#contact-links {
+	margin: 20px 0 0 0;
+}
+
+#contact-links p {
+	font-size: 20px;
+	margin: 0px 10px 0px 0px;
+	line-height: 36px;
 }
 
 #contact a {
 	border-bottom: 1px dotted;
+}
+
+.contact-icon {
+	width: 20px;
+	fill: green;
+	margin: 0 10px 0 10px;
 }
 
 /* FOOTER */
