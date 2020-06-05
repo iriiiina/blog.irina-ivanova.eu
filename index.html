@@ -8,12 +8,11 @@ title: Ирина Иванова
 	<div id="posts">
 		<!-- This loops through the paginated posts -->
 		{% for post in paginator.posts %}
-		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-		<p class="author">
-			<span class="date">{{ post.date }}</span>
-		</p>
-		<div class="content">
-			{{ post.content }}
+		<div class="preview-post">
+			<a href="{{ post.url }}"><img class="preview-image" src="../assets/post-images/{{post.date | date: '%Y-%m-%d' }}/preview.jpg"></a>
+			<p class="post-title"><a href="{{ post.url }}">{{ post.title }}</a> <span class="post-date">{{ post.date | date: '%d.%m.%Y' }}</span></p>
+			<div class="post-content">{{ post.excerpt }}</div>
+			<p class="post-more"><a href="{{ post.url }}">читать дальше</a></p>
 		</div>
 		{% endfor %}
 		

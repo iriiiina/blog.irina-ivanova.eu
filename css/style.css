@@ -4,11 +4,16 @@ body {
 	margin: 0;
 	background: url("../assets/img/background.jpg") left top no-repeat;
 	background-size: 100%;
+	font-family: Georgia, serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 100;
 }
 
 a {
 	text-decoration: none;
 	color: green;
+	transition: color 0.3s;
 }
 
 a:hover {
@@ -55,8 +60,37 @@ nav p a {
 
 .preview-post {
 	background-color: white;
-	margin: 10px auto 10px auto;
+	margin: 10px auto 30px auto;
 	width: 800px;
+	padding: 10px 20px 30px 20px;
+	border-radius: 10px;
+	border: 1px green dotted;
+}
+
+.preview-image {
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+	transition: filter 0.3s;
+}
+
+.preview-image:hover {
+	filter: opacity(50%);
+}
+
+.post-title {
+	font-size: 24px;
+	border-bottom: 1px green dotted;
+}
+
+.post-date {
+	font-size: 14px;
+	margin: 0 0 0 20px;
+}
+
+.post-more a {
+	font-size: 18px;
+	border-bottom: 1px green dotted;
 }
 
 /* PAGINATION */
@@ -149,7 +183,7 @@ nav p a {
 
 footer {
 	background-color: #212121;
-	
+	position: relative;
   left: 0;
   bottom: 0;
 	width: 100%;
@@ -158,7 +192,8 @@ footer {
 	margin: 50px 0 0 0;
 	display: flex;
   flex-flow: column wrap;
-  align-items: center;
+	align-items: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .footer-p {
