@@ -20,6 +20,12 @@ a:hover {
 	color: orange;
 }
 
+hr {
+	border: 0;
+	border-top: 2px green dotted;
+	width: 200px;
+}
+
 /* HEADER */
 
 header {
@@ -64,11 +70,44 @@ nav p a {
 	padding: 10px 20px 30px 20px;
 }
 
+#post-image {
+	width: 100%;
+}
+
+/* LAST POSTS */
+
+#last-posts {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.last-post-preview {
+	background-color: white;
+	margin: 10px;
+	width: 30%;
+}
+
+.last-post-preview-image {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	transition: filter 0.3s;
+}
+
+.last-post-preview-image:hover {
+	filter: opacity(50%);
+}
+
+.last-post-preview-a {
+	border: 0;
+}
+
 /* FOOTER */
 
 footer {
 	background-color: #212121;
-	position: fixed;
+	position: relative;
   left: 0;
   bottom: 0;
 	width: 100%;
