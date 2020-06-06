@@ -221,3 +221,28 @@ footer {
 .footer-icon:hover {
 	fill: orange;
 }
+
+/* UP */
+
+#up {
+	position: fixed;
+  bottom: 40px;
+	right: 30px;
+	border: 1px green dotted;
+	padding: 10px 20px 5px 20px;
+	border-radius: 5px;
+}
+
+#up a {
+	border: 0;
+}
+
+#up-icon {
+  height: 40px;
+	fill: green;
+	transition: fill 0.3s;
+}
+
+#up-icon:hover {
+	fill: orange;
+}
