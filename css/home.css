@@ -1,5 +1,10 @@
 /* GENERAL */
 
+html {
+	width: 100%;
+	height: 100%;
+}
+
 body {
 	margin: 0;
 	background: url("../assets/img/background.jpg") left top no-repeat;
@@ -8,6 +13,20 @@ body {
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 100;
+	width: 100%;
+	height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+main {
+	padding-top: 100px;
+	flex-grow: 1;
+}
+
+main, footer {
+	flex-shrink: 0;
 }
 
 a {
@@ -19,10 +38,6 @@ a {
 
 a:hover {
 	color: orange;
-}
-
-main {
-	padding-top: 100px;
 }
 
 /* HEADER */
