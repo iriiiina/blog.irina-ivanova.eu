@@ -5,7 +5,10 @@
 <html lang="ru-RU">
 	<head>
 
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css ">
+		<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/post.css ">
+		
+		<!-- Header Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
 
 		<title>{{ page.title }}</title>
 		<meta charset="UTF-8">
@@ -13,22 +16,21 @@
 	</head>
 	<body>
 
-    <div id="back">
-      <a id="back-a" href="{{ site.url }}" title="Назад в блог">&lt; Назад в блог</a>
-    </div>
+		{% include header.html %}
 
 		<main>
+
     	<div id="post">
       	<h2>{{ page.title }}</h2>
 				<div id="post-info">
 					<span class="post-info-span">Опубликовано: {{ page.date | date: "%-d.%m.%Y" }}</span>
-					<span class="post-info-span">Категории: {{ page.categories | join: ", " }}</span>
 				</div>
 
       	<div id="post-content">
         	{{ content }}
       	</div>
-    	</div>
+			</div>
+			
 		</main>
 
     {% include footer.html %}

@@ -107,6 +107,17 @@ nav p a {
 	margin: 6px;
 }
 
+/* POST */
+
+#post {
+	background-color: white;
+	margin: 10px auto 30px auto;
+	width: 800px;
+	padding: 10px 20px 30px 20px;
+	border-radius: 10px;
+	border: 1px green dotted;
+}
+
 /* PORTFOLIO */
 
 #portfolio {
