@@ -80,6 +80,14 @@ nav p a {
 
 /* BLOG */
 
+#blog {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
 .preview-post {
 	background-color: white;
 	margin: 10px auto 30px auto;
@@ -108,7 +116,7 @@ nav p a {
 	font-size: 24px;	
 }
 
-.post-date {
+.post-date-tag {
 	font-size: 14px;
 	margin: 0 0 0 20px;
 }
@@ -128,15 +136,27 @@ nav p a {
 	margin: 6px;
 }
 
-/* POST */
+/* TAG */
 
-#post {
+#tags {
+	margin: 100px 0 0 50px;
+	max-width: 200px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: no-wrap;
+}
+
+#tag-header {
+	text-align: center;
+}
+
+.tag {
 	background-color: white;
-	margin: 10px auto 30px auto;
-	width: 800px;
-	padding: 10px 20px 30px 20px;
-	border-radius: 10px;
-	border: 1px green dotted;
+	border: 1px black solid;
+	border-radius: 5px;
+	margin: 3px 5px 3px 5px;
+	padding: 7px;
+	line-height: 20px;
 }
 
 /* PORTFOLIO */

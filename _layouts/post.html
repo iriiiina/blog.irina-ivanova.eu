@@ -23,9 +23,7 @@
     	<div id="post">
 				<img id="post-image" src="../../../assets/post-images/{{page.date | date: '%Y-%m-%d' }}/preview.jpg"/>
 				<h2>{{ page.title }}</h2>
-				<div id="post-info">
-					<span class="post-info-span">Опубликовано: {{ page.date | date: "%-d.%m.%Y" }}</span>
-				</div>
+				<span class="post-date-tag">{{ page.date | date: "%-d.%m.%Y" }} / {{ page.tags | join: ", " }}</span>
 
       	<div id="post-content">
         	{{ content }}
