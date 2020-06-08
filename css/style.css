@@ -154,6 +154,34 @@ nav p a {
 	width: 100%;
 }
 
+.first-paragraph:first-letter {
+  float: left;
+  font-size: 70pt;
+  line-height: 50pt;
+  padding-right: 5px;
+}
+
+.highlight-paragraph {
+	text-align: center;
+	border-top: 1px green double;
+	border-bottom: 1px green double;
+	margin: 20px 20% 20px 20%;
+	padding: 10px 0 10px 0;
+	font-size: 24pt;
+	line-height: 24pt;
+}
+
+.reference-paragraph {
+  font-style: italic;
+  border-bottom: 1px solid gray;
+  padding: 0 40px 20px 40px;
+}
+
+#post img {
+	max-width: 100%;
+  display: block;
+}
+
 /* LAST POSTS */
 
 #last-posts {
