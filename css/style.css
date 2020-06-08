@@ -40,6 +40,12 @@ a:hover {
 	color: orange;
 }
 
+hr {
+	border: 0;
+	border-top: 2px green dotted;
+	width: 200px;
+}
+
 /* HEADER */
 
 header {
@@ -136,6 +142,47 @@ nav p a {
 	margin: 6px;
 }
 
+/* POST */
+
+#post {
+	margin: 10px auto 30px auto;
+	width: 800px;
+	padding: 10px 20px 30px 20px;
+}
+
+#post-image {
+	width: 100%;
+}
+
+/* LAST POSTS */
+
+#last-posts {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.last-post-preview {
+	background-color: white;
+	margin: 10px;
+	width: 30%;
+}
+
+.last-post-preview-image {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	transition: filter 0.3s;
+}
+
+.last-post-preview-image:hover {
+	filter: opacity(50%);
+}
+
+.last-post-preview-a {
+	border: 0;
+}
+
 /* TAG */
 
 #tags {
@@ -219,6 +266,32 @@ nav p a {
 	margin: 0 10px 0 10px;
 }
 
+/* UP */
+
+#up {
+	position: fixed;
+  bottom: 40px;
+	right: 30px;
+	border: 1px green dotted;
+	padding: 10px 20px 5px 20px;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+#up a {
+	border: 0;
+}
+
+#up-icon {
+  height: 40px;
+	fill: green;
+	transition: fill 0.3s;
+}
+
+#up-icon:hover {
+	fill: orange;
+}
+
 /* FOOTER */
 
 footer {
@@ -243,7 +316,6 @@ footer {
 .footer-a {
   color: #CFD8DC;
 	border: 0;
-
 }
 
 .footer-icon {
@@ -254,31 +326,5 @@ footer {
 }
 
 .footer-icon:hover {
-	fill: orange;
-}
-
-/* UP */
-
-#up {
-	position: fixed;
-  bottom: 40px;
-	right: 30px;
-	border: 1px green dotted;
-	padding: 10px 20px 5px 20px;
-	border-radius: 5px;
-	z-index: 1;
-}
-
-#up a {
-	border: 0;
-}
-
-#up-icon {
-  height: 40px;
-	fill: green;
-	transition: fill 0.3s;
-}
-
-#up-icon:hover {
 	fill: orange;
 }
