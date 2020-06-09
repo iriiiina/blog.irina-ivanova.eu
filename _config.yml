@@ -10,10 +10,6 @@ github_username: iriiiina
 
 # Build Settings
 markdown: kramdown
-sass:
-  sass_dir: css
-  style: compressed
-  sourcemap: none
 
 # Other
 safe: true
