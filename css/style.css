@@ -60,6 +60,7 @@ header {
 	background-color: white;
 	border-bottom: 1px black solid;
 	font-family: 'Amatic SC', cursive;
+	z-index: 1;
 }
 
 h1 {
