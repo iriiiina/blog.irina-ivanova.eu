@@ -1,4 +1,4 @@
-[![Licence](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Licence](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Valid CSS](https://img.shields.io/badge/Valid%20CSS-W3C-orange)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Firina-ivanova.eu&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) [![Valid HTML](https://img.shields.io/badge/Valid%20HTML-W3C-blue)](https://validator.w3.org/nu/?doc=https%3A%2F%2Firina-ivanova.eu)
 
 # Ирина Иванова | Персональный блог
 
