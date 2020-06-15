@@ -13,8 +13,14 @@
 			}
 		</style>
 		
-		<link rel="alternate" type="application/rss+xml" title="Лента блога Ирины Ивановой" href="/atom.xml">
-		
+		<link rel="manifest" href="{{ site.url }}/manifest.json">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/assets/favicons/favicon-16x16.png">
+		<link rel="mask-icon" href="{{ site.url }}/assets/favicons/safari-pinned-tab.svg" color="#FFFFFF">
+		<meta name="theme-color" content="#FFFFFF">
+
 		<!-- Header Font -->
 		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
 
@@ -22,6 +28,14 @@
 		<meta charset="UTF-8">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="description=" content="{{ page.excerpt | strip_html }}">
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="{{ page.title }}">
+		<meta property="og:description" content="{{ page.excerpt | strip_html }}">
+		<meta property="og:image" content="{{ site.url }}/assets/post-images/{{ page.date | date: '%Y-%m-%d' }}/preview.jpg"/>
+		<meta property="og:locale" content="ru-RU"/>
 
 	</head>
 	<body>
