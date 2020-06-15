@@ -4,8 +4,7 @@ email: irina.ivanova@protonmail.com
 description: >-
   Персональный блог Ирины Ивановой
 baseurl: ""
-#url: https://irina-ivanova.eu
-url: https://iriiiina.github.io/personal-page
+url: https://irina-ivanova.eu
 permalink: /:year/:month/:day/:title
 github_username: iriiiina
 
