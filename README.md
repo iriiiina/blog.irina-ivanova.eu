@@ -13,6 +13,5 @@
 | **Технологии** | **Дизайн** | **Организация** |
 | -------------- | ---------- | --------------- |
 | [<img src="https://simpleicons.org/icons/jekyll.svg" width="30"/> Jekyll](https://jekyllrb.com) | [<img src="https://simpleicons.org/icons/simpleicons.svg" width="30"> Simple Icons](https://simpleicons.org) | [<img src="https://simpleicons.org/icons/github.svg" width="30"> GitHub Pages](https://pages.github.com) |
-| | [Favicon Generator](https://realfavicongenerator.net) | [<img src="https://simpleicons.org/icons/visualstudiocode.svg" width="30"> Visual Studio Code](https://code.visualstudio.com) |
-| [<img src="https://simpleicons.org/icons/html5.svg" width="30"> HTML 5](https://www.w3.org/TR/html5/) | | |
+| [<img src="https://simpleicons.org/icons/html5.svg" width="30"> HTML 5](https://www.w3.org/TR/html5/) | [Favicon Generator](https://realfavicongenerator.net) | [<img src="https://simpleicons.org/icons/visualstudiocode.svg" width="30"> Visual Studio Code](https://code.visualstudio.com) |
 | [<img src="https://simpleicons.org/icons/css3.svg" width="30"> CSS 3](https://www.w3schools.com/css/css3_intro.asp) | | |
