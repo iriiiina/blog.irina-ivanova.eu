@@ -64,6 +64,12 @@ h1 {
 	text-align: center;
 }
 
+h1 a {
+	text-decoration: none;
+	color: orange;
+	border: 0;
+}
+
 nav {
 	margin-top: 20px;
 	display: flex;
