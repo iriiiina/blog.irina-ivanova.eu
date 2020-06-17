@@ -128,8 +128,12 @@ nav p a {
 	margin: 0 0 0 20px;
 }
 
+.post-more {
+	text-align: right;
+}
+
 .post-more a {
-	font-size: 18pt;
+	font-size: 14pt;
 }
 
 /* PAGINATION */
