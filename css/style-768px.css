@@ -74,33 +74,6 @@ nav p {
 	filter: opacity(50%);
 }
 
-/* TAG */
-
-#tags {
-	margin: 100px 0 0 50px;
-	max-width: 200px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-}
-
-#tag-header {
-	text-align: center;
-}
-
-.tag {
-	background-color: white;
-	border: 1px green solid;
-	border-radius: 5px;
-	margin: 3px 5px 3px 5px;
-	padding: 7px 7px 7px 25px;
-	line-height: 20pt;
-}
-
-.tag-all {
-	padding-left: 7px;
-}
-
 /* PORTFOLIO */
 
 #portfolio {
