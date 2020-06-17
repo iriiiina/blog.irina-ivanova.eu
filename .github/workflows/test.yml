@@ -1,17 +1,11 @@
 name: Test CI
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: [push]
 
 jobs:
-  build:
-
+  lintAllTheThings:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
-    - name: Yaml-Checker
-      uses: leon-th/yaml-checker@v1.0.0
+    - name: yaml-lint
+      uses: ibiqlik/action-yamllint@v1
