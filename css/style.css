@@ -276,9 +276,9 @@ nav p a {
 
 footer {
 	display: flex;
-	flex-flow: row;
-	align-items: flex-start;
-	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-evenly;
 	background-color: #212121;
 	color: #CFD8DC;
   left: 0;
@@ -291,13 +291,21 @@ footer {
 	font-size: 14pt;
 }
 
-#tags, #info {
-	margin: 0 30px 0 30px;
+#tags {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
 }
 
-#tags ul {
-	list-style: none;
-	margin: 0;
+#tags a {
+	margin: 0 5px 0 5px;
+}
+
+#info {
+	text-align: center;
 }
 
 footer p {

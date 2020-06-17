@@ -121,6 +121,22 @@ nav p {
 
 /* FOOTER */
 
+footer {
+	flex-flow: row;
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+#tags {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+}
+
+#info {
+	text-align: left;
+}
+
 .footer-icon {
 	transition: color 0.3s;
 }
