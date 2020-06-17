@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v1
     - name: Yaml-Checker
-    - uses: leon-th/yaml-checker@v1.0.0
-
+      uses: leon-th/yaml-checker@v1.0.0
