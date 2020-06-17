@@ -81,7 +81,7 @@ nav p {
 	max-width: 200px;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: no-wrap;
+	flex-wrap: nowrap;
 }
 
 #tag-header {
