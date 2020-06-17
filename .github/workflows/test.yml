@@ -34,3 +34,11 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: gaurav-nelson/github-action-markdown-link-check@v1
+  
+  HTML-Proofer:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check HTML
+      uses: chabad360/htmlproofer@master
+      with:
+        directory: "./"
