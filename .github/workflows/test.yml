@@ -42,3 +42,11 @@ jobs:
       uses: chabad360/htmlproofer@master
       with:
         directory: "./"
+
+  OWASP-Scan:
+    runs-on: ubuntu-latest
+    steps:
+    - name: ZAP Scan
+      uses: zaproxy/action-baseline@v0.3.0
+      with:
+        target: "https://irina-ivanova.eu/"
