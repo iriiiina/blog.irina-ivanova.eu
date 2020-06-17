@@ -3,9 +3,28 @@ name: Test CI
 on: [push]
 
 jobs:
-  lintAllTheThings:
+
+  YAML-lint:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - name: yaml-lint
       uses: ibiqlik/action-yamllint@v1
+
+  XML-lint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Download schema
+      run: wget https://apps.nextcloud.com/schema/apps/info.xsd
+    - name: Lint sitemap.xml
+      uses: ChristophWurst/xmllint-action@v1
+      with:
+        xml-file: ./sitemap.xml
+        xml-schema-file: ./info.xsd
+    - name: Lint atom.xml
+      uses: ChristophWurst/xmllint-action@v1
+      with:
+        xml-file: ./atom.xml
+        xml-schema-file: ./info.xsd
