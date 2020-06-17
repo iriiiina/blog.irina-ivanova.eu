@@ -16,7 +16,8 @@ body {
 	height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+	align-items: stretch;
+	color: #212121;
 }
 
 main {
@@ -51,7 +52,7 @@ header {
 	justify-content: space-between;
 	padding: 10px;
 	background-color: white;
-	border-bottom: 1px black solid;
+	border-bottom: 1px #212121 solid;
 	font-family: 'Amatic SC', cursive;
 	z-index: 1;
 }
@@ -85,7 +86,7 @@ nav p {
 }
 
 nav p a {
-	color: black;
+	color: #212121;
 	border: 0;
 }
 
