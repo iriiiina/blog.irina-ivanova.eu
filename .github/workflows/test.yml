@@ -4,14 +4,14 @@ on: [push]
 
 jobs:
 
-  YAML-lint:
+  YAML-Lint:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - name: yaml-lint
       uses: ibiqlik/action-yamllint@v1
 
-  XML-lint:
+  XML-Lint:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -28,3 +28,9 @@ jobs:
       with:
         xml-file: ./atom.xml
         xml-schema-file: ./info.xsd
+
+  Markdown-Link-Checker:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
