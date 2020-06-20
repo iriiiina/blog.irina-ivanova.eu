@@ -45,7 +45,7 @@
 		<main>
 
     	<div id="post">
-				<img id="post-image" src="../../../assets/post-images/{{page.date | date: '%Y-%m-%d' }}/preview.jpg"/>
+				<img id="post-image" src="../../../assets/post-images/{{page.date | date: '%Y-%m-%d' }}/preview.jpg" alt="Иллюстрация поста"/>
 				<h2>{{ page.title }}</h2>
 				<span class="post-date-tag">/ {{ page.date | date: "%-d.%m.%Y" }} / 
 					{% for tag in page.tags %}
@@ -63,7 +63,7 @@
 			<div id="last-posts">
 				{% for post in site.posts limit:3 %}
 				<div class="last-post-preview">
-					<a class="last-post-preview-a" href="{{ post.url }}"><img class="last-post-preview-image" src="../../../assets/post-images/{{post.date | date: '%Y-%m-%d' }}/preview.jpg"></a>
+					<a class="last-post-preview-a" href="{{ post.url }}"><img class="last-post-preview-image" src="../../../assets/post-images/{{post.date | date: '%Y-%m-%d' }}/preview.jpg" alt="Иллюстрация поста"></a>
 					<p class="last-post-title"><a href="{{ post.url }}">{{ post.title }}</a></p>
 				</div>
 				{% endfor %}
