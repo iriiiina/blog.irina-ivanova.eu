@@ -243,8 +243,6 @@ nav p a {
 	width: 96%;
 	margin: 10% auto 0 auto;
 	background-color: white;
-	border-top: 1px green dotted;
-	border-bottom: 1px green dotted;
 	padding: 20px 2% 20px 2%;
 }
 
@@ -269,8 +267,6 @@ nav p a {
 	margin: 10% auto 0 auto;
 	background-color: white;
 	padding: 20px 2% 20px 2%;
-	border-top: 1px green dotted;
-	border-bottom: 1px green dotted;
 }
 
 #contact p {
@@ -279,6 +275,7 @@ nav p a {
 
 #contact-links {
 	margin: 20px 0 0 0;
+	font-size: 12pt;
 }
 
 #contact-links p {
