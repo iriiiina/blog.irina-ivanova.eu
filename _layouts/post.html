@@ -45,20 +45,26 @@
 		<main>
 
     	<div id="post">
-				<img id="post-image" src="../../../assets/post-images/{{page.date | date: '%Y-%m-%d' }}/preview.jpg" alt="Иллюстрация поста"/>
 				<h2>{{ page.title }}</h2>
-				<span class="post-date-tag">/ {{ page.date | date: "%-d.%m.%Y" }} / 
-					{% for tag in page.tags %}
-						<a href="{{ site.url }}/tag/{{ tag }}">#{{ tag }}</a>
-					{% endfor %}
-				</span>
+				
+				<div id="post-date-tags">
+					<p>{{ page.date | date: "%-d.%m.%Y" }}</p>
+					<p>
+						{% for tag in page.tags %}
+							<a class="post-tag" href="{{ site.url }}/tag/{{ tag }}">#{{ tag }}</a>
+						{% endfor %}
+				</p>
+				</div>
+
+				<img id="post-image" src="../../../assets/post-images/{{page.date | date: '%Y-%m-%d' }}/preview.jpg" alt="Иллюстрация поста"/>
+				
       	<div id="post-content">
         	{{ content }}
 				</div>
 				
 				<div class="post-tags">
 					{% for tag in page.tags %}
-						<a href="{{ site.url }}/tag/{{ tag }}">#{{ tag }}</a>
+						<a class="post-tag" href="{{ site.url }}/tag/{{ tag }}">#{{ tag }}</a>
 					{% endfor %}
 				</div>
 

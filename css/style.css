@@ -128,7 +128,7 @@ nav p a {
 	line-height: 30pt;
 }
 
-.post-date-tag {
+.preview-post-date-tag {
 	font-size: 14pt;
 	margin: 0 0 0 20px;
 }
@@ -164,16 +164,25 @@ nav p a {
 	width: 100%;
 }
 
+#post-date-tags {
+	margin-bottom: 50px;
+}
+
+#post-date-tags p {
+	margin: 0;
+	padding: 0;
+}
+
+.post-tag {
+	margin: 0 10px 0 0;
+}
+
 #post-content {
 	margin-top: 50px;
 }
 
 .post-tags {
 	margin-top: 100px;
-}
-
-.post-tags a {
-	margin: 0 5px 0 5px;
 }
 
 .first-paragraph:first-letter {
