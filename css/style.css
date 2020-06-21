@@ -1,7 +1,10 @@
 /* GENERAL */
 
-html {
-	width: 100%;
+*, :after, :before {
+	box-sizing: border-box;
+}
+
+html, body {
 	height: 100%;
 }
 
@@ -10,12 +13,10 @@ body {
 	font-family: Georgia, serif;
 	font-size: 16pt;
 	line-height: 20pt;
-	width: 100%;
-	height: 100%;
   display: flex;
   flex-direction: column;
-	align-items: stretch;
 	color: #212121;
+	overflow-wrap: break-word;
 }
 
 main {
@@ -85,7 +86,7 @@ nav p {
 	margin: 0;
 	display: inline;
 	text-transform: lowercase;
-	font-size: 30pt;
+	font-size: 26pt;
 }
 
 nav p a {
@@ -94,14 +95,6 @@ nav p a {
 }
 
 /* BLOG */
-
-#blog {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: flex-start;
-}
 
 .preview-post {
 	background-color: white;
