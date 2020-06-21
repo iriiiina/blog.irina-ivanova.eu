@@ -168,6 +168,14 @@ nav p a {
 	margin-top: 50px;
 }
 
+.post-tags {
+	margin-top: 100px;
+}
+
+.post-tags a {
+	margin: 0 5px 0 5px;
+}
+
 .first-paragraph:first-letter {
   float: left;
   font-size: 70pt;
