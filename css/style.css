@@ -7,8 +7,6 @@ html {
 
 body {
 	margin: 0;
-	background: url("../assets/img/background.jpg") left top no-repeat;
-	background-size: 100%;
 	font-family: Georgia, serif;
 	font-size: 16pt;
 	line-height: 20pt;

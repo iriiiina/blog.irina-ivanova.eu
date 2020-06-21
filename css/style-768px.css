@@ -1,5 +1,10 @@
 /* GENERAL */
 
+body {
+	background: url("../assets/img/background.jpg") left top no-repeat;
+	background-size: 100%;
+}
+
 a {
 	transition: color 0.3s;
 }
