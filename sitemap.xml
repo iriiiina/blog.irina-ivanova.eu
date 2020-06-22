@@ -3,55 +3,55 @@
 
   <url>
     <loc>https://irina-ivanova.eu/</loc>
-    <lastmod>2020-06-15</lastmod>
+    <lastmod>2020-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://irina-ivanova.eu/portfolio.html</loc>
-    <lastmod>2020-06-15</lastmod>
+    <loc>https://irina-ivanova.eu/portfolio</loc>
+    <lastmod>2020-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://irina-ivanova.eu/contact.html</loc>
-    <lastmod>2020-06-15</lastmod>
+    <loc>https://irina-ivanova.eu/contact</loc>
+    <lastmod>2020-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://irina-ivanova.eu/tag/child.html</loc>
-    <lastmod>2020-06-15</lastmod>
+    <loc>https://irina-ivanova.eu/tag/child</loc>
+    <lastmod>2020-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://irina-ivanova.eu/tag/cognitio-liber.html</loc>
-    <lastmod>2020-06-15</lastmod>
+    <loc>https://irina-ivanova.eu/tag/cognitio-liber</loc>
+    <lastmod>2020-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://irina-ivanova.eu/tag/diy.html</loc>
-    <lastmod>2020-06-15</lastmod>
+    <loc>https://irina-ivanova.eu/tag/diy</loc>
+    <lastmod>2020-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://irina-ivanova.eu/tag/investment.html</loc>
-    <lastmod>2020-06-15</lastmod>
+    <loc>https://irina-ivanova.eu/tag/investment</loc>
+    <lastmod>2020-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://irina-ivanova.eu/tag/travel.html</loc>
-    <lastmod>2020-06-15</lastmod>
+    <loc>https://irina-ivanova.eu/tag/travel</loc>
+    <lastmod>2020-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://irina-ivanova.eu/tag/vinyl.html</loc>
-    <lastmod>2020-06-15</lastmod>
+    <loc>https://irina-ivanova.eu/tag/vinyl</loc>
+    <lastmod>2020-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -280,6 +280,12 @@
   <url>
     <loc>https://irina-ivanova.eu/2019/05/26/linocut-workshop</loc>
     <lastmod>2019-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://irina-ivanova.eu/2020/06/22/one-more-first-post</loc>
+    <lastmod>2020-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
