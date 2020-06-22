@@ -267,18 +267,18 @@ nav p a {
 	padding: 20px 2% 20px 2%;
 }
 
-#contact p {
-	margin: 0;
-}
-
 #contact-links {
 	margin: 20px 0 0 0;
 	font-size: 12pt;
+	line-height: 24pt;
 }
 
 #contact-links p {
-	margin: 0px 10px 0px 0px;
-	line-height: 24pt;
+	margin: 0 10px 0 0;
+}
+
+#contact-links p a {
+	vertical-align: text-bottom;
 }
 
 .contact-icon {
