@@ -45,6 +45,21 @@ h2 {
 	line-height: 26pt;
 }
 
+ul {
+	list-style-type: none;
+}
+
+li:before {
+	content: "\2662";
+	margin-left: -20px;
+	margin-right: 5px;
+}
+
+figcaption {
+	font-size: 12pt;
+	text-align: right;
+}
+
 /* HEADER */
 
 header {
