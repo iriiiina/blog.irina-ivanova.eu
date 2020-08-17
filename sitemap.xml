@@ -3,7 +3,7 @@
 
   <url>
     <loc>https://irina-ivanova.eu/</loc>
-    <lastmod>2020-07-21</lastmod>
+    <lastmod>2020-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
@@ -22,6 +22,12 @@
   <url>
     <loc>https://irina-ivanova.eu/tag/child</loc>
     <lastmod>2020-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://irina-ivanova.eu/tag/home</loc>
+    <lastmod>2020-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -292,6 +298,12 @@
   <url>
     <loc>https://irina-ivanova.eu/2020/07/21/ideal-microclimate-for-newborn</loc>
     <lastmod>2020-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://irina-ivanova.eu/2020/08/17/dust</loc>
+    <lastmod>2020-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
