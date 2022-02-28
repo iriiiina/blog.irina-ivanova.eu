@@ -1,0 +1,42 @@
+<div id="categories">
+	<span class="category"><a class="category-a" id="all" href="{{ site.url }}" title="Все категории">все</a></span>
+	<span class="category"><a class="category-a" id="event" href="{{ site.url }}/category/event" title="Категория: событие">событие</a></span>
+	<span class="category"><a class="category-a" id="restoration" href="{{ site.url }}/category/restoration" title="Категория: реставрация">реставрация</a></span>
+	<span class="category"><a class="category-a" id="talk" href="{{ site.url }}/category/talk" title="Категория: разговор">разговор</a></span>
+	<span class="category"><a class="category-a" id="video" href="{{ site.url }}/category/video" title="Категория: видео">видео</a></span>
+	<span class="category"><a class="category-a" id="typography" href="{{ site.url }}/category/typography" title="Категория: типография">типография</a></span>
+  <span class="category"><a class="category-a" id="history" href="{{ site.url }}/category/history" title="Категория: история">история</a></span>
+  <span class="category"><a class="category-a" id="tool" href="{{ site.url }}/category/tool" title="Категория: инструмент">инструмент</a></span>
+  <span class="category"><a class="category-a" id="adana" href="{{ site.url }}/category/adana" title="Категория: адана">адана</a></span>
+</div>
+
+<script>
+if (window.location.href == "{{ site.url }}/" || window.location.href == "{{ site.url }}") {
+  document.getElementById("all").style.color = "#FFC107";
+  document.getElementById("all").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/event") {
+  document.getElementById("event").style.color = "#FFC107";
+  document.getElementById("event").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/restoration") {
+  document.getElementById("restoration").style.color = "#FFC107";
+  document.getElementById("restoration").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/talk") {
+  document.getElementById("talk").style.color = "#FFC107";
+  document.getElementById("talk").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/video") {
+  document.getElementById("video").style.color = "#FFC107";
+  document.getElementById("video").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/typography") {
+  document.getElementById("typography").style.color = "#FFC107";
+  document.getElementById("typography").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/history") {
+  document.getElementById("history").style.color = "#FFC107";
+  document.getElementById("history").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/tool") {
+  document.getElementById("tool").style.color = "#FFC107";
+  document.getElementById("tool").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/adana") {
+  document.getElementById("adana").style.color = "#FFC107";
+  document.getElementById("adana").style.borderColor = "#FFC107";
+}
+</script>

@@ -1,0 +1,12 @@
+---
+layout: blog
+title: Книго-ориентированный блог - история
+---
+
+<div id="posts">
+  {% for post in site.posts %}
+  {% if post.categories contains "история" %}
+  {% include posts.html %}
+  {% endif %}
+  {% endfor %}
+</div>

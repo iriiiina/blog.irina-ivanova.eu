@@ -1,0 +1,12 @@
+---
+layout: blog
+title: Книго-ориентированный блог - адана
+---
+
+<div id="posts">
+	{% for post in site.posts %}
+    {% if post.categories contains "адана" %}
+	   {% include posts.html %}
+    {% endif %}
+	{% endfor %}
+</div>

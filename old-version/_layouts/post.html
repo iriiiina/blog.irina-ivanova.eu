@@ -1,0 +1,67 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="ru-RU">
+	<head>
+
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style-768px.css"
+          media="screen and (min-width:768px)">
+
+		<link rel="manifest" href="{{ site.url }}/manifest.json">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/assets/favicons/favicon-16x16.png">
+		<link rel="mask-icon" href="{{ site.url }}/assets/favicons/safari-pinned-tab.svg" color="#FFC107">
+		<meta name="theme-color" content="#FFC107">
+
+		<title>{{ page.title }}</title>
+		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="description=" content="{{ page.excerpt | strip_html }}">
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="{{ page.title }}">
+		<meta property="og:description" content="{{ page.excerpt | strip_html }}">
+		<meta property="og:image" content="{{ site.url }}/assets/post-images/{{ page.date | date: '%Y-%m-%d' }}/preview.jpg"/>
+		<meta property="og:locale" content="ru-RU"/>
+
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({
+				google_ad_client: "ca-pub-9292899968619308",
+				enable_page_level_ads: true
+				});
+		</script>
+
+	</head>
+	<body>
+
+		{% include header.html %}
+
+    <div id="back">
+      <a id="back-a" href="{{ site.url }}" title="Назад в блог">&lt; Назад в блог</a>
+    </div>
+
+		<main>
+    	<div id="post">
+      	<h2>{{ page.title }}</h2>
+				<div id="post-info">
+					<span class="post-info-span">Опубликовано: {{ page.date | date: "%-d.%m.%Y" }}</span>
+					<span class="post-info-span">Категории: {{ page.categories | join: ", " }}</span>
+				</div>
+
+      	<div id="post-content">
+        	{{ content }}
+      	</div>
+    	</div>
+		</main>
+
+		{% include navigation.html %}
+
+    {% include footer.html %}

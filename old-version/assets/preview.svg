@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 80" style="fill: #FFFFFF;background-color: #FFC107;">
+  <text x="10" y="37" font-size="40" transform="rotate(-30) translate(-7,8)">C</text>
+  <text x="35" y="37" font-size="30" transform="rotate(-10) translate(-10,-6)">o</text>
+  <text x="48" y="37" font-size="30" transform="rotate(10) translate(1,-18)">g</text>
+  <text x="63" y="37" font-size="30" transform="rotate(-10) translate(-8,1)">n</text>
+  <text x="77" y="37" font-size="30" transform="rotate(5) translate(-3,-15)">i</text>
+  <text x="84" y="37" font-size="30" transform="rotate(-1) translate(-5,-6)">t</text>
+  <text x="92" y="37" font-size="30" transform="rotate(20) translate(-4,-43)">i</text>
+  <text x="99" y="37" font-size="30" transform="rotate(-10) translate(-12,10)">o</text>
+
+  <text x="35" y="86" font-size="40" transform="rotate(10) translate(-5,-30)">L</text>
+  <text x="46" y="35" font-size="30" transform="rotate(-20) translate(-33,34)">i</text>
+  <text x="74" y="99" font-size="30" transform="rotate(20) translate(-13,-55)">b</text>
+  <text x="71" y="52" font-size="30" transform="rotate(-10) translate(-23,20)">e</text>
+  <text x="84" y="60" font-size="30" transform="rotate(-5) translate(-18,8)">r</text>
+</svg>

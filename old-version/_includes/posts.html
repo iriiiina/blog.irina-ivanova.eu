@@ -1,0 +1,14 @@
+<div class="preview-post">
+  <a href="{{ post.url }}" title="{{ post.title }}">
+    <img class="preview-image" src="../assets/post-images/{{post.date | date: '%Y-%m-%d' }}/preview.jpg" alt="Илюстрация поста">
+  </a>
+  <div class="preview-title">
+    <a class="preview-title-a" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </div>
+  <div class="preview-excerpt">
+    {{ post.excerpt }}
+  </div>
+  <div class="preview-date">
+    {{ post.date | date: "%-d.%m.%Y" }}
+  </div>
+</div>

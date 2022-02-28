@@ -1,0 +1,12 @@
+---
+layout: blog
+title: Книго-ориентированный блог - инструмент
+---
+
+<div id="posts">
+	{% for post in site.posts %}
+    {% if post.categories contains "инструмент" %}
+	   {% include posts.html %}
+    {% endif %}
+	{% endfor %}
+</div>
