@@ -4,7 +4,7 @@ email: irina.ivanova@protonmail.com
 description: >-
   Личный блог Ирины Ивановой обо всём, что её интересует: винил, дети, инвестиции, книгопечатание, может быть ещё куда-нибудь занесёт.
 baseurl: ""
-url: https://irina-ivanova.eu
+url: https://blog.irina-ivanova.eu
 permalink: /:year/:month/:day/:title
 github_username: iriiiina
 
